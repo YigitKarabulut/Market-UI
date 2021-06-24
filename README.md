@@ -1,16 +1,11 @@
-# market_application
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Market UI
+Market uygulaması arayüz tasarımı. Ürünleri kart şeklinde görünümü,
+kategorilere ayrılması, her ürüne tıklandığında o ürün ile ilgili
+bilgi verilmesi, ürün (örn: Zeytin Yağı) stokta var ise 'Sepete Ekle' butonu çıkması ve 
+bu butona basınca ekrana 'Sepetinize Eklendi' yazısı belirmesi,
+eğer ürün (örn: Muz) stokta yok ise butonun arka planını kırmızı renge dönüp
+yazısının 'Stokta Yok' olarak değişmesi gibi özellikler var. Ayrıca ürünün
+kartına tıklayıp ürün hakkında bilgileri öğrenme ekranına ufak bir geçiş efekti ekledim.
+Görsellik açısından güzel bir sunum oldu. Sol üstte 'drawer' yani yandan açılan menü ekledim.
+Bu uygulamayı daha da geliştirip içerisine veritabanı ekleyip bir 'Getir', 'Migros Market' uygulamaları gibi
+olmasını sağlayacağım. 
